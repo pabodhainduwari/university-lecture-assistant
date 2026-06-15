@@ -165,7 +165,7 @@ with st.sidebar:
 
     answer_language = st.selectbox(
         "Answer Language",
-        ["Sinhala", "English", "Sinhala + English"]
+        ["English", "Sinhala", "Sinhala + English"]
     )
 
     study_mode = st.radio(
