@@ -206,9 +206,9 @@ with st.sidebar:
 
 st.markdown("""
 <div class="hero-card">
-    <div class="main-title">University Lecture Assistant</div>
+    <div class="main-title">StudyMate AI</div>
     <div class="subtitle">
-        AI-powered study companion for lecture notes, summaries, MCQs, short notes and exam preparation.
+        AI-powered academic assistant for lecture notes, summaries, MCQs, short notes and exam preparation.
     </div>
 </div>
 """, unsafe_allow_html=True)
