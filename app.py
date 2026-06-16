@@ -393,6 +393,7 @@ if "vectorstore" in st.session_state:
             mime="text/plain"
         )
 
+
         if source_docs:
             with st.expander("View Sources"):
                 for i, doc in enumerate(source_docs):
@@ -409,6 +410,24 @@ if "vectorstore" in st.session_state:
                         """,
                         unsafe_allow_html=True
                     )
+                    
+       
 
 else:
     st.warning("Please upload and process lecture PDFs first.")
+
+#Footer
+st.markdown("""
+<div style="
+    text-align:center;
+    margin-top:50px;
+    padding:20px;
+    color:#94A3B8;
+    font-size:14px;
+">
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<br><br>
+🚀 Developed by <b>Pabodha Marasinghe</b><br>
+Data Science Undergraduate | AI & ML Enthusiast
+</div>
+""", unsafe_allow_html=True)
