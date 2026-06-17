@@ -1,4 +1,4 @@
-# University Lecture Assistant
+# StudyMate-AI-University Lecture Assistant
 
 An AI-powered Retrieval-Augmented Generation (RAG) system that enables students to upload lecture PDFs and interact with their study materials through natural language questions.
 
